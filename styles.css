@@ -11,41 +11,36 @@ html{
     scroll-behavior:smooth;
 }
 
-body{
-    /* background:url();
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-     */
-}
-    
 
-main{
+
+body{
     text-align: center;
-    max-width: 600px;
-    margin: 4rem auto;
-    padding:2rem;
-    background-color:rgb(253, 235, 211);
-    background-repeat: no-repeat;
+    height: 80vh;
+    background-image: url(/images/stockmarket.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    opacity: 0.9;
 }
 
 h1{
-    color:#c92d6e;
+    color:#374151;
+    margin:0.5rem auto;
+    padding: 0.5rem;
 }
 
-.input-div{
+#container{
     padding: 1rem ;
-    margin: 0.5rem;
-    
+    min-height: 500px;
+    max-width: 600px;
+    margin: 4rem auto;
+    background-color:#FEE2E2;
 }
 
 .label{
     padding-top: 0.5rem;
     display: block;
     font-size:18px;
+    color:#374151;
 }
 
 input{
@@ -56,47 +51,46 @@ input{
     height: 40px;
     border-radius: 0.5rem;
     outline:none;
-    border: 2px solid black;
+    border: 2px solid #374151;
 }
 
 #btn-check{
     display: block;
-    border: 1px solid #c92d6e;
+    border: 1px solid #FCA5A5;
     border-radius: 0.5rem;
     margin:0.8rem auto;
     padding:0.5rem 1rem;
-    background-color:#c92d6e;
-    color:antiquewhite;
+    background-color:#f19191;
+    font-size: 0.9rem;
+    color:#374151;
 }
 
 #show-output{
     max-width: 90%;
-    margin: 1rem auto;
+    margin: 2rem auto;
+    padding:0.5rem;
+    border-radius: 0.2rem;
+    background-color:#f3caca;
+    color:#374151;
 }
 
 .social-connects{
     padding:0.5rem;
-    margin-top: 2rem;
-    background-color: #c92d6e;
-    color:antiquewhite;
+    margin-top: 3rem;
+    background-color: #f19191;
+    color:#374151;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     }
 
-hr{
-    margin-top:1rem;
-    border-top: 1px solid #c92d6e;
-}
-
-
 .list-unordered{
     padding:0.5rem;
     list-style: none;
-
 }
 
 .links{
-    color:antiquewhite;
+    color:#374151; 
+    font-size: 14px;   
     text-decoration: none;
 }
 
